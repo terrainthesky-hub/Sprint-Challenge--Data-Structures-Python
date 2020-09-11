@@ -38,23 +38,6 @@ class BSTNode:
         seen.append(self.value)
         if self.value in seen:
             duplicates.append(self.value)
-        # global previous 
-    
-        # # If root is null then return 
-        # if self is None: 
-        #     return
-    
-        # dupes(self.left) 
-    
-        # if previous is not None: 
-    
-            
-        #     if self.value == previous.value: 
-        #         duplicates.append(self.value)
-    
-   
-        # previous = self 
-        # dupes(self.right) 
 
 
 
